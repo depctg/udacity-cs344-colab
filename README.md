@@ -1,6 +1,6 @@
 # udacity-cs344-colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/depctg/udacity-cs344-colab)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/depctg/udacity-cs344-colab)
 
 Google Colab Notebooks for Udacity CS344 - Intro to Parallel Programming
 
