@@ -5,7 +5,7 @@
 # <email>   quantm@unist.ac.kr  kast.jo@googlemail.com msarahan@gmail.com</email>
 ############################################################################
 
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 project(cs344)
 
 find_package(OpenCV REQUIRED)
@@ -21,9 +21,7 @@ if(CUDA_FOUND)
   # to make sure more people can easily run class code without knowing 
   # about this compiler argument
   set(CUDA_NVCC_FLAGS "
-  -gencode;arch=compute_30,code=sm_30;  
-  -gencode;arch=compute_35,code=sm_35;
-  -gencode;arch=compute_35,code=compute_35;")
+  -gencode;arch=compute_75,code=sm_75;")
 
   # add -Wextra compiler flag for gcc compilations
   if (UNIX)
