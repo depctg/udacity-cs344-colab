@@ -21,7 +21,7 @@ if(CUDA_FOUND)
   # to make sure more people can easily run class code without knowing 
   # about this compiler argument
   set(CUDA_NVCC_FLAGS "-gencode;arch=compute_37,code=sm_37;
-  -gencode;arch=compute_75,code=sm_75;")
+  -gencode;arch=compute_75,code=sm_75,compute_75;")
 
   # add -Wextra compiler flag for gcc compilations
   if (UNIX)
